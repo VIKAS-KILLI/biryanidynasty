@@ -1,0 +1,54 @@
+.footer {
+  background: var(--primary-color);  /* Sunset Red-Orange */
+  color: var(--background-color);
+  padding: 10px 0;
+  margin-top: 40px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer h3, .footer h4 {
+  margin-bottom: 40px;
+  align-items: center;
+  font-weight: 500;
+}
+
+.footer-links h4, .footer-about h3, .footer-contact h4 {
+  color: black; /* Set to black for visibility */
+  font-size: 1rem; /* Increase the font size for emphasis */
+  font-weight: bold; /* Make the heading bold */
+  text-transform: uppercase; /* Convert text to uppercase for a modern look */
+  text-align: left; /* Align the text to the left */
+}
+.footer-about h3 {
+  color: black; /* Set the heading color to black */
+  font-size: 2rem; /* Increase the font size for emphasis */
+  font-weight: bold; /* Make the heading bold */
+  text-transform: uppercase; /* Convert text to uppercase for a modern look */
+  text-align: left; /* Align the text to the left */
+  margin-bottom: 20px; /* Add spacing below the heading */
+  letter-spacing: 1px; /* Add slight spacing between letters */
+}
+.footer-links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2px;
+  font-size: 0.9rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 10px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 15px;
+}

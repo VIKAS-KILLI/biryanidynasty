@@ -1,0 +1,65 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the body background color and font */
+body {
+  font-family: 'Poppins', sans-serif;  /* Set default font */
+  background-color: #fff;  /* White background */
+  color: #333;  /* Default text color */
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;  /* Prevent horizontal scroll */
+}
+
+/* Root element (#root) should take up full screen */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Global link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--primary-color);  /* Apply primary color on hover */
+}
+
+/* Add some smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global container class for center alignment and padding */
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 20px;
+  margin: auto;
+}
+
+/* Basic button styles */
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* Set up custom properties (CSS Variables) */
+:root {
+  --primary-color: #f2c14e;  /* Warm golden tone */
+  --secondary-color: #ff5e5b; /* Sunset red */
+  --accent-color: #d17a22;    /* Burnt orange accent */
+  --text-light: #ffffff;      /* Light text color */
+  --text-dark: #333333;       /* Dark text color */
+  --background-color: #fff;   /* Background color */
+}

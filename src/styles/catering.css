@@ -1,0 +1,101 @@
+/* Hero Section */
+.catering-hero {
+  background: url("/images/catering-bg.jpg") center/cover no-repeat;
+  background: linear-gradient(120deg, var(--secondary-color), var(--primary-color));
+  color: #0b0b0b; /* Match the text color with .about-intro */
+  text-align: center;
+  padding: 100px 20px;
+  margin-bottom: 50px; /* Add margin-bottom to separate sections */
+  border-radius: 8px;
+}
+
+.catering-hero h1 {
+  font-size: 2.5rem;
+  color: #0b0b0b;
+  margin-bottom: 15px;
+}
+
+/* Packages */
+.catering-packages {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.catering-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.catering-card {
+  background: #fff8f0;
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.catering-card h3 {
+  color: #a8201a;
+  margin-bottom: 10px;
+}
+
+.catering-card:hover {
+  transform: translateY(-5px);
+}
+
+.catering-card .price {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Why Choose Us */
+.catering-why {
+  background: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.catering-why-list {
+  margin-top: 20px;
+  display: grid;
+  gap: 12px;
+  font-size: 1.1rem;
+}
+
+/* Inquiry Form */
+.catering-form {
+  padding: 60px 20px;
+  background: #fff3f0;
+  text-align: center;
+}
+
+.catering-form form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.catering-form input,
+.catering-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.catering-form button {
+  align-self: center;
+  margin-top: 10px;
+}
+.catering-form button {
+  background: #a8201a;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}

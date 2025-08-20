@@ -1,0 +1,37 @@
+/* About Section Preview */
+.home-about-preview {
+  background: #fff8f0;
+  padding: 60px 20px;
+}
+
+.home-about-content {
+  text-align: center;
+}
+
+.home-about-content h2 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.home-about-content p {
+  font-size: 1.2rem;
+  color: var(--text-dark);
+  max-width: 800px;
+  margin: 0 auto 30px;
+}
+
+.home-about-content .btn-primary {
+  background: var(--primary-color);
+  color: var(--background-color);
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.home-about-content .btn-primary:hover {
+  background: var(--accent-color);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}

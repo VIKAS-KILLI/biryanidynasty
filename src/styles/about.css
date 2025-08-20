@@ -1,0 +1,92 @@
+/* Intro Section */
+.about-intro {
+  background: url("/images/takeaway-bg.jpg") center/cover no-repeat;
+  background: linear-gradient(120deg, var(--secondary-color), var(--primary-color));
+  color: #0b0b0b; /* Match the text color with .about-intro */
+  text-align: center;
+  padding: 100px 20px;
+  margin: 20px 0 50px; /* Set top margin to match catering.css */
+  margin-top: 0cap;
+  border-radius: 8px;
+}
+
+.about-intro h1 {
+  font-size: 2.5rem;
+  color: #0b0b0b;
+  margin-bottom: 15px;
+}
+
+.about-intro p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/* Who We Are */
+.about-who {
+  padding: 60px 20px;
+  background: #fff8f0;
+  align-items: center;
+}
+
+.about-who-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+
+.about-who-text {
+  flex: 1 1 400px;
+}
+
+.about-who-img img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-align: center;
+}
+
+/* Team */
+.about-team {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.team-card {
+  background: #fff8f0;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.team-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Why Choose Us */
+.about-why {
+  background: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-why-list {
+  margin-top: 20px;
+  display: grid;
+  gap: 12px;
+  font-size: 1.1rem;
+}

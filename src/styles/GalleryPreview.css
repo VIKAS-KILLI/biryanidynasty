@@ -1,0 +1,28 @@
+/* Gallery Section */
+.home-gallery-preview {
+  padding: 60px 20px;
+}
+
+.home-gallery-preview h2 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.home-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.home-gallery-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.home-gallery-grid img:hover {
+  transform: scale(1.05);
+}
