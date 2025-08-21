@@ -1,8 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa"; // Hamburger & Close icons
 import "../styles/navbar.css";
 
 const Navbar = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); // State for mobile menu
+
+  const toggleMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen); // Toggle the mobile menu visibility
+  };
   return (
     <nav className="navbar">
       <div className="navbar-logo">
@@ -23,6 +29,10 @@ const Navbar = () => {
       </ul>
       <div className="navbar-button">
         <button>Order Online</button>
+      </div>
+      {/* Hamburger Icon */}
+      <div className="hamburger-icon" onClick={toggleMenu}>
+        {isMobileMenuOpen ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
     </nav>
   );

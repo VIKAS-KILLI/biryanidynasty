@@ -59,6 +59,44 @@
   border-radius: 5px; /* Optional: Add rounded corners */
 }
 
+/* Hamburger menu icon - hidden on desktop, visible on mobile */
+.hamburger-icon {
+  display: none;
+  cursor: pointer;
+}
+
+/* Mobile View Styles (Hamburger Icon + Menu) */
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--primary-color);
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100vh;
+    z-index: 10;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--primary-color);
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100vh;
+    z-index: 10;
+  }
+}
 /* Order Online Button */
 .navbar-button button {
   background-color: #F2C14E;  /* Warm golden color */
@@ -87,4 +125,14 @@
 
 .navbar-button button:focus {
   outline: none;  /* Remove default focus outline */
+}
+
+.hamburger-icon {
+    display: block; /* Show the hamburger icon on mobile */
+  }
+
+/* Icon Styling */
+.hamburger-icon svg {
+  color: var(--text-light); /* White color for the icons */
+  cursor: pointer;
 }
