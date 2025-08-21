@@ -1,6 +1,6 @@
 /* Hero Section */
 .home-hero {
-  background: url("cover picture.jpg") center/cover no-repeat;
+  background: url("cover photo.jpg") center/cover no-repeat;
   color: white;
   text-align: center;
   padding: 120px 20px;
@@ -13,7 +13,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: url("cover picture.jpg") center/cover no-repeat; /* Hero image */
+  background: url("cover photo.jpg") center/cover no-repeat; /* Hero image */
   position: relative;
   color: var(--text-light);
   padding: 0 20px;
