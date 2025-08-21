@@ -1,23 +1,12 @@
-/* Hero Section Styles */
+/* Hero Section */
 .home-hero {
-  background: url("cover picture.jpg") center/cover no-repeat;
-  background: linear-gradient(45deg, #FF5E5B, #F2C14E);  /* Sunset Gradient */
+  background-image: url('/images/cover photo.jpg');  /* Path to your image */
+  background-size: cover;  /* Make the background image cover the entire hero section */
+  background-position: center center;  /* Center the image */
   color: var(--background-color);  /* White text */
   text-align: center;
-  /* padding: 100px 20px; */
-  border-radius: 8px;
-}
-
-.home-hero-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: url("cover picture.jpg") center/cover no-repeat; /* Hero image */
-  position: relative;
-  color: var(--text-light);
-  padding: 0 20px;
+  padding: 120px 20px;  /* Adjust padding as necessary */
+  border-radius: 8px;  /* Optional: add rounded corners */
 }
 
 .home-hero h1 {
