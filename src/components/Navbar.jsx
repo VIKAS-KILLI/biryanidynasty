@@ -1,4 +1,4 @@
-import React from "react";
+import {useState} from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa"; // Hamburger & Close icons
 import "../styles/navbar.css";
