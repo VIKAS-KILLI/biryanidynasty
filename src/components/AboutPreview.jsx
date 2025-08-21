@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/aboutPreview.css";
+import "../styles/aboutpreview.css";
 
 const AboutPreview = () => {
   return (

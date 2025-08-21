@@ -9,19 +9,19 @@ const Blog = () => {
       title: "The Secret Behind Hyderabadi Biryani",
       excerpt:
         "Discover the rich history and unique flavors that make Hyderabadi biryani the king of all biryanis.",
-      image: "/images/blog1.jpg",
+      image: "secret behind hyd biryani.jpg",
     },
     {
       title: "Why Spices Matter in Indian Cooking",
       excerpt:
         "From saffron to cardamom, learn why spices are the heart of Indian cuisine and how they add magic to food.",
-      image: "/images/blog2.jpg",
+      image: "/why spices matter.jpg",
     },
     {
       title: "Catering Tips for a Perfect Event",
       excerpt:
         "Planning a wedding, party, or corporate event? Here’s how catering can make or break your occasion.",
-      image: "/images/blog3.jpg",
+      image: "catering tips for a perfect event.jpg",
     },
   ];
 
