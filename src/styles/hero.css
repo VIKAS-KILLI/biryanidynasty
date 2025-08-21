@@ -1,6 +1,6 @@
 /* Hero Section */
 .home-hero {
-  background-image: url('/images/cover photo.jpg');  /* Path to your image */
+  background-image: url('cover photo.jpg');  /* Path to your image */
   background-size: cover;  /* Make the background image cover the entire hero section */
   background-position: center center;  /* Center the image */
   color: var(--background-color);  /* White text */
