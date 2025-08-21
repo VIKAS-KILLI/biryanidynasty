@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/signatureDishes.css";
+import "../styles/signaturedishes.css";
 
 const SignatureDishes = () => {
   return (
